@@ -13,5 +13,5 @@ head = 0 -> 1 -> 2 -> 3 -> 4 -> 5 // the head node with value 0
 
 ## Sample Output
 ```
-5 -> 4 -> 3 -> 2 -> 1 -> e // the new head node with value 5
+5 -> 4 -> 3 -> 2 -> 1 -> 0 // the new head node with value 5
 ```
