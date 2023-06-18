@@ -1,27 +1,15 @@
-# Invert Binary Tree
+# Non—Constructlble Change
 
-Write a function that takes in a Binary Tree and inverts it. In other words, the function should swap every left node in the tree for its corresponding right node.
+Given an array of positive integers representing the values of coins in your possession, write a function that returns the minimum amount of change (the minimum sum of money) that you cannot create. The given coins can have any positive integer value and aren't necessarily unique (i.e., you can have multiple coins of the same value).
 
-Each BinaryTree node has an integer value, a left child node, and a right child node. Children nodes can either be BinaryTree nodes themselves or None / null.
+For example, if you're given coins = [1, 2, 5], the minimum amount of change that you can't create is 4. If you're given no coins, the minimum amount of change that you can't create is 1.
 
 ## Sample Input
 ```
-tree = 1
-     /   \
-    2     3
-   / \   / \
-  4   5 6   7
- / \
-8   9
+coins = [5, 7, 1, 1, 2, 3, 22]
 ```
 
 ## Sample Output
 ```
-     1
-   /   \
-  3     2
- / \   / \
-7   6 5   4
-         / \
-        9   8
+20
 ```
